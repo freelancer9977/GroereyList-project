@@ -11,7 +11,7 @@ import java.util.List;
 public class GroceryListDAOImpl implements GroceryListDAO{
     String url = "jdbc: postgresql://ms-fsj-db.cqc1utncxdnr.us-east-1.rds.amazonaws.com/G-list";
     String username = "postgres";
-    String passwaord = "p4ssw0rd";
+    String passwaord = "";
 
     @Override
     public List<GroceryList> getallListGiveUser(Integer userId) {
