@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GrocereryItemDAOImpl implements GroceryItemDAO{
-    String url = "jdbc: postgresql://ms-fsj-db.cqc1utncxdnr.us-east-1.rds.amazonaws.com/G-list";
+    String url = "";
     String username = "postgres";
     String passwaord = "";
 
