@@ -22,7 +22,7 @@ import java.sql.*;
 * the most common error for connecting to JDBC [unfinished]
 * */
 public class UserDAOImpl implements UserDAO{
-    String url = "jdbc:postgresql://ms-fsj-db.cqc1utncxdnr.us-east-1.rds.amazonaws.com/G-list";
+    String url = "";
     String username = "postgres";
     String passwaord = "";
 
