@@ -24,7 +24,7 @@ import java.sql.*;
 public class UserDAOImpl implements UserDAO{
     String url = "jdbc:postgresql://ms-fsj-db.cqc1utncxdnr.us-east-1.rds.amazonaws.com/G-list";
     String username = "postgres";
-    String passwaord = "p4ssw0rd";
+    String passwaord = "";
 
     @Override
     public User getUserGivenUsername(String username) {
