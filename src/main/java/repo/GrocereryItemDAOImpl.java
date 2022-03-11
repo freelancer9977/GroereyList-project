@@ -9,7 +9,7 @@ import java.util.List;
 public class GrocereryItemDAOImpl implements GroceryItemDAO{
     String url = "jdbc: postgresql://ms-fsj-db.cqc1utncxdnr.us-east-1.rds.amazonaws.com/G-list";
     String username = "postgres";
-    String passwaord = "p4ssw0rd";
+    String passwaord = "";
 
     @Override
     public List<GeroceryItem> getAllItemsGivenListID(Integer listId) {
